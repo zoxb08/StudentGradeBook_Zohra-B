@@ -27,7 +27,7 @@ public class StudentGradeBook {
         }
 
         // for printing out the grade report 
-        System.out.println("\nGrade Book summary\n: "); 
+        System.out.println("\nGrade Book summary:\n "); 
 
         for (StudentInformation studentInformation : students) { 
             studentInformation.displayInfo(); 
